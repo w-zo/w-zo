@@ -1,16 +1,147 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,20&height=220&section=header&text=HABIB%20%E2%9A%A1%20%40w-zo&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+</p>
 
-<!--
-**w-zo/w-zo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&height=50&lines=Autonomous+AI+Agents+%26+Multi-Agent+Swarms;Blackwell+96GB+Cloud+GPU+Pipelines+%26+vLLM;High-Performance+Inference+Optimization+%7C+FlashInfer;Full-Stack+Architect+%7C+Python+%7C+TypeScript+%7C+Rust;Building+Intelligent+Infrastructure" alt="Typing SVG" />
+  </a>
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=w-zo&label=PROFILE+VIEWS&style=for-the-badge&color=0284c7" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS%20AGENTS%20%26%20GPU-blueviolet?style=for-the-badge&logo=openai&logoColor=white" alt="Focus" />
+  <img src="https://img.shields.io/badge/COMPUTE-RTX%20PRO%206000%2096GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Compute" />
+  <img src="https://img.shields.io/badge/STATUS-BUILDING%20THE%20FUTURE-0ea5e9?style=for-the-badge" alt="Status" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛰️ Executive Briefing
+
+```text
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  AI Systems & Autonomous Agents Architect | Cloud GPU Infrastructure        │
+│  Specializing in distributed neural compute, model serving & low-latency    │
+│  agentic tooling. Turning cutting-edge AI research into production reality. │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+- 🔭 **Architecting**: Autonomous multi-agent swarms, self-evolving code harnesses, and persistent agent runtimes.
+- ⚡ **GPU Infrastructure**: Pushing NVIDIA RTX PRO 6000 Blackwell 96GB to its limits via **vLLM**, **FlashInfer**, **Automatic Prefix Caching (APC)**, and chunked prefill.
+- 🎙️ **Voice & Conversational AI**: Engineering sub-200ms real-time neural speech pipelines, Indic multilingual models, and conversational telephone bots.
+- 🛠️ **Systems & Tooling**: Authoring developer-first CLI platforms, high-speed streaming HTTP bridges, and full-stack reactive apps.
+- 🌱 **Continual Exploration**: Kernel dispatch, Triton fused kernels, quantum-safe protocols, and local edge computing on Linux/Termux.
+
+---
+
+### 🛠️ Tech Arsenal & Systems Architecture
+
+<table>
+  <tr>
+    <td width="22%"><strong>Languages & Core</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=python,ts,js,rust,cpp,bash,postgres,go&theme=dark" alt="Languages" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>AI, ML & Compute</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,docker&theme=dark" alt="AI Frameworks" />
+      <br /><br />
+      <img src="https://img.shields.io/badge/vLLM-000000?style=flat-square&logo=vllm&logoColor=white" alt="vLLM" />
+      <img src="https://img.shields.io/badge/FlashInfer-00B4D8?style=flat-square&logoColor=white" alt="FlashInfer" />
+      <img src="https://img.shields.io/badge/Triton_Kernels-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Triton" />
+      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
+      <img src="https://img.shields.io/badge/Transformers-FFA500?style=flat-square" alt="Transformers" />
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+      <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>Full-Stack & Cloud</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,nodejs,tailwind,supabase,cloudflare,redis,postgres&theme=dark" alt="Full Stack & Cloud" />
+    </td>
+  </tr>
+  <tr>
+    <td width="22%"><strong>DevOps & Tooling</strong></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=linux,git,githubactions,docker,nginx,vscode,vim&theme=dark" alt="DevOps" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 Telemetry & Contribution Intelligence
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=w-zo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="w-zo GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=w-zo&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="w-zo GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=w-zo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=w-zo&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117" alt="Activity Graph" width="49%" />
+</p>
+
+---
+
+### 🐍 Contribution Labyrinth
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake.svg">
+    <img alt="Habib's Contribution Snake Animation" src="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</p>
+
+---
+
+### ⚡ Architecture & Engineering Focus
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <h3>🤖 Autonomous Agents</h3>
+      <p>Hierarchical multi-agent swarms, dynamic tool compilation, autonomous code harnesses, and self-healing execution loops.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>⚡ Cloud GPU Ingress</h3>
+      <p>NVIDIA RTX PRO 6000 Blackwell 96GB scaling, sub-80ms TTFT, FlashInfer attention dispatch, and memory-bandwidth saturation.</p>
+    </td>
+    <td width="33%" align="center">
+      <h3>🎙️ Neural Voice Systems</h3>
+      <p>Full-duplex real-time dialogue engines, Indic acoustic synthesis, WebSocket streaming bridges, and conversational telephony.</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🌐 Connect & Collaborate
+
+<p align="center">
+  <a href="https://github.com/w-zo" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:tgff28970@email.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://discord.com" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
+  <a href="https://twitter.com" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
+  </a>
+</p>
+
+<p align="center">
+  <i>"Speed of thought, depth of execution. Always building at the edge of the possible."</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,20&height=100&section=footer" width="100%" />
+</p>
