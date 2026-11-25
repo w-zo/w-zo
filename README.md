@@ -1,201 +1,160 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,20&height=220&section=header&text=HABIB%20%E2%9A%A1%20%40w-zo&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" />
+  <img src="./assets/header.svg" width="100%" alt="Habib (@w-zo) Header" />
 </p>
 
+<!-- BESPOKE DISTRIBUTED ARCHITECTURE SCHEMATIC -->
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&height=50&lines=Autonomous+AI+Agents+%26+Multi-Agent+Swarms;Blackwell+96GB+Cloud+GPU+Pipelines+%26+vLLM;High-Performance+Inference+Optimization+%7C+FlashInfer;Full-Stack+Architect+%7C+Python+%7C+TypeScript+%7C+Rust;Building+Tomorrow's+Intelligent+Infrastructure" alt="Typing SVG" />
-  </a>
+  <img src="./assets/system_architecture.svg" width="100%" alt="Distributed Cluster Architecture Blueprint" />
 </p>
 
+<!-- AUTHENTIC TERMINAL SESSION HUD -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=w-zo&label=PROFILE+VIEWS&style=for-the-badge&color=0284c7" alt="Profile Views" />
-  <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS%20AGENTS%20%26%20GPU-blueviolet?style=for-the-badge&logo=openai&logoColor=white" alt="Focus" />
-  <img src="https://img.shields.io/badge/HARDWARE-RTX%20PRO%206000%2096GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Compute" />
-  <img src="https://img.shields.io/badge/STATUS-SYSTEMS%20ACTIVE-0ea5e9?style=for-the-badge" alt="Status" />
+  <img src="./assets/terminal.svg" width="100%" alt="Active Terminal HUD" />
 </p>
 
 ---
 
-<!-- CYBER TERMINAL HUD -->
-<p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Cyber Terminal HUD" />
-</p>
-
-<!-- NOW STREAMING AUDIO CARD -->
-<p align="center">
-  <img src="./assets/player.svg" width="100%" alt="Now Coding / Synthwave Stream" />
-</p>
-
----
-
-### 🛰️ Executive Briefing & Core Architecture
+### ⚡ Core Systems & Engineering Focus
 
 ```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│  HABIB // ARCHITECT & SYSTEMS ENGINEER                                      │
-│  Specializing in distributed neural compute, autonomous swarms & low-latency│
-│  agentic tooling. Turning cutting-edge AI research into production reality. │
-└─────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│  HABIB // SYSTEMS ARCHITECT & AGENTIC INFRASTRUCTURE ENGINEER                   │
+│  Specializing in distributed neural compute, GPU inference kernels & autonomous │
+│  agent runtimes. Squeezing maximum throughput out of bleeding-edge hardware.     │
+└──────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- 🔭 **Autonomous Agent Ecosystems**: Architecting hierarchical multi-agent swarms, self-evolving code harnesses, and persistent agent runtimes.
-- ⚡ **Blackwell 96GB GPU Ingress**: Squeezing maximum throughput out of NVIDIA RTX PRO 6000 Blackwell 96GB using **FlashInfer**, **Triton fused kernels**, **vLLM**, and **Automatic Prefix Caching (APC)**.
-- 🎙️ **Conversational Neural Voice**: Engineering sub-200ms end-to-end full-duplex speech synthesis, Indic language acoustic models, and telephony AI agents.
-- 🛠️ **Systems & Developer Platforms**: Authoring agent-native CLIs, streaming HTTP bridges, and reactive full-stack web applications.
-- 🧬 **The Prefix-Cache Contract**: Ensuring 100% byte-frozen prompt prefixes for 90%+ cache hit rate and sub-80ms Time-To-First-Token (TTFT).
+* **Cloud GPU Orchestration**: Squeezing hardware limits on **NVIDIA RTX PRO 6000 Blackwell (96GB GDDR7)** via **FlashInfer**, **Triton fused attention**, **vLLM**, and **Automatic Prefix Caching (APC)** for sub-80ms TTFT.
+* **Agent-Native Systems**: Contributor and builder across autonomous agent frameworks (**CLI-Anything**, **Hermes Agent**), enabling LLMs to autonomously operate CLI software harnesses with zero human friction.
+* **Low-Latency Conversational Voice**: Developing sub-200ms full-duplex neural acoustic models, Indic speech synthesis, and telephony AI agents.
+* **Edge-to-Cloud Runtime**: Architecting deterministic SQLite WAL state persistence and high-speed streaming HTTP bridges between local **Termux / Android aarch64** nodes and remote cloud GPU clusters.
 
 ---
 
-### 🛠️ Tech Arsenal & Systems Stack
+### 🚀 Flagship Open-Source Projects
 
 <table>
-  <tr>
-    <td width="22%"><strong>Languages &amp; Core</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=python,ts,js,rust,cpp,bash,postgres,go&theme=dark" alt="Languages" />
-    </td>
-  </tr>
-  <tr>
-    <td width="22%"><strong>AI, ML &amp; Compute</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,docker&theme=dark" alt="AI Frameworks" />
-      <br /><br />
-      <img src="https://img.shields.io/badge/vLLM-000000?style=flat-square&logo=vllm&logoColor=white" alt="vLLM" />
-      <img src="https://img.shields.io/badge/FlashInfer-00B4D8?style=flat-square&logoColor=white" alt="FlashInfer" />
-      <img src="https://img.shields.io/badge/Triton_Kernels-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="Triton" />
-      <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" />
-      <img src="https://img.shields.io/badge/Transformers-FFA500?style=flat-square" alt="Transformers" />
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
-      <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-    </td>
-  </tr>
-  <tr>
-    <td width="22%"><strong>Full-Stack &amp; Cloud</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,nodejs,tailwind,supabase,cloudflare,redis,postgres&theme=dark" alt="Full Stack & Cloud" />
-    </td>
-  </tr>
-  <tr>
-    <td width="22%"><strong>DevOps &amp; Tooling</strong></td>
-    <td>
-      <img src="https://skillicons.dev/icons?i=linux,git,githubactions,docker,nginx,vscode,vim&theme=dark" alt="DevOps" />
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="left">System / Project</th>
+      <th align="left">Architecture &amp; Core Capability</th>
+      <th align="center">Stack</th>
+      <th align="center">Repository</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>molab-cli</strong></td>
+      <td>Autonomous multi-pod cloud GPU orchestrator &amp; workspace persistence engine for NVIDIA Blackwell (96GB VRAM) pods. Features 100% on-pod in-notebook marimo vault, anti-idle keepalive supervisor, and 48-tool MCP JSON-RPC protocol.</td>
+      <td><code>Python</code> <code>CUDA</code> <code>vLLM</code></td>
+      <td align="center"><a href="https://github.com/w-zo/molab-cli"><code>w-zo/molab-cli</code></a></td>
+    </tr>
+    <tr>
+      <td><strong>CLI-Anything</strong></td>
+      <td>Autonomous engine transforming arbitrary software into agent-native CLIs. Leverages AST parsing, trajectory loops, and automatic harness synthesis so LLM agents can run CAD, 3D renderers, and system tools directly.</td>
+      <td><code>Python</code> <code>AST</code> <code>Agents</code></td>
+      <td align="center"><a href="https://github.com/HKUDS/CLI-Anything"><code>CLI-Anything</code></a></td>
+    </tr>
+    <tr>
+      <td><strong>indic-voice</strong></td>
+      <td>Full-duplex real-time conversational voice system with sub-200ms speech synthesis latency, MergeKit acoustic brain architecture, and streaming WebSocket telephony bridges.</td>
+      <td><code>PyTorch</code> <code>FastAPI</code> <code>Audio</code></td>
+      <td align="center"><code>Private / Research</code></td>
+    </tr>
+    <tr>
+      <td><strong>hermes-agent</strong></td>
+      <td>Autonomous multi-agent swarm runtime featuring continuous episodic memory, autonomous skill synthesis, and multi-channel gateway connectivity (Telegram, Discord, CLI).</td>
+      <td><code>Python</code> <code>TUI</code> <code>Multi-Agent</code></td>
+      <td align="center"><a href="https://github.com/NousResearch/hermes-agent"><code>hermes-agent</code></a></td>
+    </tr>
+  </tbody>
 </table>
 
 ---
 
-### 📊 Real-Time Telemetry & Contribution Intelligence
+### 🛠️ Technical Arsenal
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=w-zo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="w-zo GitHub Stats" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=w-zo&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8" alt="w-zo GitHub Streak" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=w-zo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" width="49%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=w-zo&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117" alt="Activity Graph" width="49%" />
-</p>
+```text
+Languages     │ Python 3.12+ · Rust 1.80+ · TypeScript · C++20 · CUDA 12.6 · Bash · Go · SQL
+Compute & AI  │ vLLM · FlashInfer · PyTorch 2.4 · Triton Kernels · Hugging Face · Transformers
+Edge & Host   │ Android Termux (aarch64) · CoreWeave Blackwell · Arch Linux · Docker · gVisor
+Protocols     │ Native HTTP SSE Streaming · SQLite WAL · MCP JSON-RPC 2.0 · WebSocket PTY
+Storage & Web │ PostgreSQL · Supabase · Redis · Cloudflare Workers · FastAPI · Next.js · Tailwind
+```
 
 ---
 
-### 🏙️ 3D Contribution Landscape & Grid Labyrinth
+### 🏙️ 3D Contribution Landscape
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution City View" />
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake.svg">
-    <img alt="Habib's Contribution Snake Animation" src="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
-</p>
-
 ---
 
-### ⚡ Deep-Dive Cyber Decks & System Telemetry
+### 🔬 Architecture Specs & Engineering Protocols
 
 <details>
-<summary><b>🕹️ DECK 01: BLACKWELL 96GB INFERENCE TELEMETRY &amp; BENCHMARKS</b></summary>
+<summary><b>📐 PROTOCOL 01: THE PREFIX-CACHE STABILITY CONTRACT</b></summary>
 <br />
 
 ```text
-+-------------------------------------------------------------------------------+
-| NVIDIA RTX PRO 6000 BLACKWELL 96GB GDDR7 -- PRODUCTION TELEMETRY              |
-+-------------------------------------------------------------------------------+
-| Metric                         | Measured Baseline | Architecture Target      |
-+--------------------------------+-------------------+--------------------------+
-| Time to First Token (TTFT)     | 72ms              | < 80ms (FlashInfer APC)  |
-| Memory Bandwidth Saturation    | 1.76 TB/s         | 1.80 TB/s (97.8% Peak)   |
-| Prefix Cache Hit Rate (APC)    | 94.8%             | > 90% (Zero-Jitter Loop) |
-| Chunked Prefill Chunk Size     | 512 tokens        | Dynamic Scheduling       |
-| PTY WebSocket Safety           | Streamed REST API | Zero 4096-byte crashes   |
-+-------------------------------------------------------------------------------+
+The Prefix-Cache Stability Contract is mandatory across all agentic workloads:
+1. Dynamic Variable Isolation: Never inject timestamps, diff counts, or random session IDs
+   into base system prompts or tool schemas.
+2. 100% Byte-Frozen Prefix: Base prompts and schemas must remain byte-identical across turns.
+3. Tail Injection: Dynamic context observations must strictly append at the user turn boundary.
+Result: 90%+ Prefix Cache (APC) Hit Rate and sub-80ms Time-To-First-Token (TTFT) on Blackwell 96GB.
 ```
 
 </details>
 
 <details>
-<summary><b>🧠 DECK 02: THE AGENTIC SOVEREIGNTY PROTOCOL</b></summary>
+<summary><b>⚡ PROTOCOL 02: HIGH-SPEED STREAMING VS THE PTY BUFFER HAZARD</b></summary>
 <br />
 
-1. **Deterministic Prefix Caching**: Never inject dynamic timestamps or randomized strings into base system prompts. Keep prompts frozen to maximize KV-cache memory reuse.
-2. **REST Streaming over Fragile PTY**: Terminal PTYs crash on payloads > 4096 bytes. All production pipelines strictly leverage native chunked HTTP streaming.
-3. **Autonomous Session Handoff**: Clean markers, zero lingering dirty working trees, full deterministic test coverage.
+```text
+The PTY Buffer Hazard: Emulated Linux pseudoterminals (interactive WebSocket PTYs) have a strict
+4,096-byte input buffer (MAX_INPUT), silently dropping bytes or hanging on large inputs.
+Production Standard:
+• Never pipe base64, JSON payloads, or multi-kilobyte code blocks over PTY.
+• All high-throughput transfers strictly utilize native chunked HTTP REST streaming (molab push/pull).
+• Result: 100% payload integrity at line speed with zero subshell overhead.
+```
 
 </details>
 
 <details>
-<summary><b>⚡ DECK 03: SECRET COMMAND ALIASES &amp; RUNTIME SUITE</b></summary>
+<summary><b>📊 PROTOCOL 03: BLACKWELL 96GB INFERENCE GEOMETRY</b></summary>
 <br />
 
-```bash
-# Target idle Blackwell GPU pod with zero friction
-$ molab free --json
-
-# Launch keepalive supervisor with 100% on-pod permanence
-$ molab permanent <pod_id>
-
-# Dispatch compiled FlashInfer model server
-$ molab deploy qwen-32b --bridge 8000
+```text
++-----------------------------------------------------------------------------------------+
+| NVIDIA RTX PRO 6000 BLACKWELL 96GB GDDR7 -- PRODUCTION TELEMETRY                         |
++-----------------------------------------------------------------------------------------+
+| Metric                         | Measured Baseline         | Architecture Target        |
++--------------------------------+---------------------------+----------------------------+
+| Time to First Token (TTFT)     | 72ms                      | < 80ms (FlashInfer APC)    |
+| Memory Bandwidth Saturation    | 1.76 TB/s                 | 1.80 TB/s (97.8% Peak)     |
+| Prefix Cache Hit Rate (APC)    | 94.8%                     | > 90% (Zero-Jitter Loop)   |
+| Chunked Prefill Chunk Size     | 512 tokens                | Dynamic Scheduling         |
+| Workspace Persistence          | 100% In-Notebook Vault    | Zero Cloud Storage Bill    |
++-----------------------------------------------------------------------------------------+
 ```
 
 </details>
 
 ---
 
-### 💡 Daily Engineering Wisdom
+### 🌐 Direct Transmission
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Tech Quote" />
-</p>
-
----
-
-### 🌐 Connect &amp; Collaborate
-
-<p align="center">
-  <a href="https://github.com/w-zo" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:tgff28970@email.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://discord.com" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-  <a href="https://twitter.com" target="_blank">
-    <img src="https://img.shields.io/badge/Twitter%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter" />
-  </a>
+  <a href="https://github.com/w-zo"><strong>GitHub: @w-zo</strong></a> &nbsp;·&nbsp;
+  <a href="mailto:tgff28970@email.com"><strong>Email: tgff28970@email.com</strong></a> &nbsp;·&nbsp;
+  <a href="https://discord.com"><strong>Discord</strong></a> &nbsp;·&nbsp;
+  <a href="https://twitter.com"><strong>X (Twitter)</strong></a>
 </p>
 
 <p align="center">
-  <i>"Speed of thought, depth of execution. Always building at the edge of the possible."</i>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color_list=0,2,20&height=100&section=footer" width="100%" />
+  <sub><code>STATUS: 24/7 AUTONOMOUS KEEPALIVE SUPERVISOR ACTIVE // NOCTURNAL COMPUTE ONLINE</code></sub>
 </p>

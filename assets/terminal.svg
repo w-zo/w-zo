@@ -1,120 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%">
   <defs>
-    <linearGradient id="terminalBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0f1d" />
-      <stop offset="100%" stop-color="#050811" />
+    <linearGradient id="termCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040711" />
+      <stop offset="100%" stop-color="#020409" />
     </linearGradient>
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" />
-      <stop offset="50%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#34d399" />
+    <linearGradient id="termBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#1e293b" />
     </linearGradient>
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
   </defs>
 
   <style>
-    @keyframes blink {
+    @keyframes termBlink {
       0%, 49% { opacity: 1; }
       50%, 100% { opacity: 0; }
     }
-    @keyframes pulseLed {
-      0%, 100% { fill: #34d399; filter: drop-shadow(0 0 6px #34d399); }
-      50% { fill: #10b981; filter: drop-shadow(0 0 2px #10b981); }
-    }
-    .text-title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; fill: #94a3b8; font-weight: 600; }
-    .text-prompt { font-family: 'Fira Code', monospace; font-size: 14px; fill: #38bdf8; font-weight: bold; }
-    .text-key { font-family: 'Fira Code', monospace; font-size: 13px; fill: #818cf8; font-weight: 600; }
-    .text-val { font-family: 'Fira Code', monospace; font-size: 13px; fill: #e2e8f0; }
-    .text-hl { font-family: 'Fira Code', monospace; font-size: 13px; fill: #34d399; font-weight: bold; }
-    .text-cyan { font-family: 'Fira Code', monospace; font-size: 13px; fill: #38bdf8; }
-    .text-ascii { font-family: 'Fira Code', monospace; font-size: 11px; fill: #38bdf8; opacity: 0.95; }
-    .cursor { animation: blink 1s infinite; fill: #38bdf8; }
-    .led { animation: pulseLed 2s infinite ease-in-out; }
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+    .term-title { font-size: 11.5px; fill: #64748b; font-weight: 600; letter-spacing: 0.5px; }
+    .t-prompt { font-size: 12.5px; fill: #38bdf8; font-weight: 700; }
+    .t-cmd { font-size: 12.5px; fill: #f8fafc; font-weight: 500; }
+    .t-dim { font-size: 12px; fill: #64748b; }
+    .t-key { font-size: 12px; fill: #818cf8; }
+    .t-val { font-size: 12px; fill: #e2e8f0; }
+    .t-str { font-size: 12px; fill: #34d399; }
+    .t-num { font-size: 12px; fill: #f59e0b; }
+    .t-success { font-size: 12px; fill: #10b981; font-weight: 600; }
+    .t-info { font-size: 12px; fill: #38bdf8; }
+    .cursor-box { animation: termBlink 1s infinite; fill: #38bdf8; }
   </style>
 
-  <!-- Outer Card Frame -->
-  <rect x="2" y="2" width="846" height="416" rx="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.8" />
-  <rect x="4" y="4" width="842" height="412" rx="12" fill="url(#terminalBg)" />
+  <!-- Shell Frame -->
+  <rect width="920" height="380" rx="12" fill="url(#termCanvas)" stroke="url(#termBorder)" stroke-width="1.2" />
+  
+  <!-- Header Bar -->
+  <path d="M 0 12 C 0 5.37 5.37 0 12 0 L 908 0 C 914.63 0 920 5.37 920 12 L 920 34 L 0 34 Z" fill="#090d16" />
+  <line x1="0" y1="34" x2="920" y2="34" stroke="#1e293b" stroke-width="1" />
+  
+  <!-- Buttons -->
+  <circle cx="22" cy="17" r="5.5" fill="#ef4444" />
+  <circle cx="39" cy="17" r="5.5" fill="#f59e0b" />
+  <circle cx="56" cy="17" r="5.5" fill="#10b981" />
 
-  <!-- Terminal Window Bar -->
-  <path d="M 4 16 C 4 9.37 9.37 4 16 4 L 834 4 C 840.63 4 846 9.37 846 16 L 846 38 L 4 38 Z" fill="#0f172a" />
-  <line x1="4" y1="38" x2="846" y2="38" stroke="#1e293b" stroke-width="1" />
+  <text x="460" y="21" text-anchor="middle" class="mono term-title">habib@blackwell-edge: ~ (zsh / molab-cli v2.5)</text>
 
-  <!-- Window Controls -->
-  <circle cx="26" cy="21" r="6" fill="#ef4444" />
-  <circle cx="44" cy="21" r="6" fill="#f59e0b" />
-  <circle cx="62" cy="21" r="6" fill="#10b981" />
+  <!-- Terminal Session -->
+  <g transform="translate(24, 62)" class="mono">
+    <!-- Command 1: Discovery -->
+    <text x="0" y="0"><tspan class="t-prompt">habib@blackwell-edge</tspan><tspan fill="#64748b">:</tspan><tspan fill="#818cf8">~</tspan><tspan fill="#64748b">$</tspan> <tspan class="t-cmd">molab free --json</tspan></text>
+    
+    <!-- JSON Output -->
+    <text x="0" y="22"><tspan class="t-dim">{</tspan></text>
+    <text x="16" y="42"><tspan class="t-key">&quot;target_pod&quot;</tspan><tspan class="t-dim">: </tspan><tspan class="t-str">&quot;pod-bw-96gb-01&quot;</tspan><tspan class="t-dim">,</tspan></text>
+    <text x="16" y="62"><tspan class="t-key">&quot;hardware&quot;</tspan><tspan class="t-dim">: </tspan><tspan class="t-str">&quot;NVIDIA RTX PRO 6000 Blackwell (96GB GDDR7)&quot;</tspan><tspan class="t-dim">,</tspan></text>
+    <text x="16" y="82"><tspan class="t-key">&quot;memory_bandwidth&quot;</tspan><tspan class="t-dim">: </tspan><tspan class="t-str">&quot;1.76 TB/s&quot;</tspan><tspan class="t-dim">,</tspan> <tspan class="t-key">&quot;vram_free&quot;</tspan><tspan class="t-dim">: </tspan><tspan class="t-num">95.4</tspan></text>
+    <text x="0" y="102"><tspan class="t-dim">}</tspan></text>
 
-  <text x="425" y="25" text-anchor="middle" class="text-title">⚡ habib@blackwell-node:~ (zsh)</text>
+    <!-- Command 2: Deployment -->
+    <text x="0" y="134"><tspan class="t-prompt">habib@blackwell-edge</tspan><tspan fill="#64748b">:</tspan><tspan fill="#818cf8">~</tspan><tspan fill="#64748b">$</tspan> <tspan class="t-cmd">molab deploy qwen-32b --engine vllm --flashinfer --apc</tspan></text>
 
-  <!-- Shell Command Line -->
-  <text x="30" y="68" class="text-prompt">habib@blackwell-node<tspan fill="#94a3b8">:</tspan><tspan fill="#818cf8">~</tspan><tspan fill="#94a3b8">$</tspan> <tspan fill="#f8fafc">fastfetch --cluster gpu-blackwell-96gb</tspan></text>
+    <text x="0" y="160"><tspan class="t-success">✓</tspan> <tspan class="t-val">Kernel Dispatch: FlashInfer fused attention compiler active</tspan></text>
+    <text x="0" y="182"><tspan class="t-success">✓</tspan> <tspan class="t-val">Automatic Prefix Caching (APC): SATURATED (hit rate &gt; 94.8%)</tspan></text>
+    <text x="0" y="204"><tspan class="t-success">✓</tspan> <tspan class="t-val">Chunked Prefill: 512 tokens / dispatch | TTFT: </tspan><tspan class="t-info">72ms</tspan></text>
+    <text x="0" y="226"><tspan class="t-success">✓</tspan> <tspan class="t-val">Unified Ingress: Dual-format /v1/chat/completions (OpenAI &amp; Anthropic)</tspan></text>
+    <text x="0" y="248"><tspan class="t-success">✓</tspan> <tspan class="t-val">Local Bridge: Listening on </tspan><tspan class="t-str">http://localhost:8000</tspan></text>
 
-  <!-- Left Side: Futuristic Neural Core ASCII Art -->
-  <g transform="translate(30, 85)">
-    <text x="0" y="20" class="text-ascii">         .---.        </text>
-    <text x="0" y="36" class="text-ascii">        /  / \ \      </text>
-    <text x="0" y="52" class="text-ascii">       |  |   | |     </text>
-    <text x="0" y="68" class="text-ascii">   .---'  '---'  '---.</text>
-    <text x="0" y="84" class="text-ascii">  /   ⚡ BLACKWELL ⚡  \</text>
-    <text x="0" y="100" class="text-ascii"> |  RTX PRO 6000 96GB |</text>
-    <text x="0" y="116" class="text-ascii">  \   [VLLM+KERNELS]  /</text>
-    <text x="0" y="132" class="text-ascii">   '---.  .---.  .---'</text>
-    <text x="0" y="148" class="text-ascii">       |  |   | |     </text>
-    <text x="0" y="164" class="text-ascii">        \  \ /  /     </text>
-    <text x="0" y="180" class="text-ascii">         '---'        </text>
-    <text x="0" y="205" class="text-ascii" fill="#818cf8">  [=================] </text>
-    <text x="0" y="222" class="text-ascii" fill="#34d399">  ● NEURAL FABRIC OK  </text>
-  </g>
-
-  <!-- Middle Divider Line -->
-  <line x1="280" y1="85" x2="280" y2="380" stroke="#1e293b" stroke-dasharray="4,4" />
-
-  <!-- Right Side: Fastfetch Telemetry -->
-  <g transform="translate(305, 100)">
-    <!-- Identity -->
-    <text x="0" y="10" class="text-key">USER</text>
-    <text x="135" y="10" class="text-val">: Habib (<tspan class="text-cyan">w-zo</tspan>)</text>
-
-    <text x="0" y="32" class="text-key">ROLE</text>
-    <text x="135" y="32" class="text-val">: AI Systems &amp; Autonomous Agents Architect</text>
-
-    <text x="0" y="54" class="text-key">ENVIRONMENT</text>
-    <text x="135" y="54" class="text-val">: Arch Linux / Android Termux (aarch64)</text>
-
-    <!-- Compute Specs -->
-    <text x="0" y="76" class="text-key">GPU CLUSTER</text>
-    <text x="135" y="76" class="text-hl">: NVIDIA RTX PRO 6000 Blackwell (96GB VRAM)</text>
-
-    <text x="0" y="98" class="text-key">ENGINE ACCEL</text>
-    <text x="135" y="98" class="text-val">: FlashInfer + Triton Kernels + Chunked Prefill</text>
-
-    <text x="0" y="120" class="text-key">INFERENCE LATENCY</text>
-    <text x="135" y="120" class="text-val">: <tspan class="text-hl">&lt; 78ms TTFT</tspan> (94.8% Prefix Cache Hit)</text>
-
-    <text x="0" y="142" class="text-key">ACTIVE SWARMS</text>
-    <text x="135" y="142" class="text-val">: Hermes Orchestrator, TAC-P, Teleclaw Bot</text>
-
-    <text x="0" y="164" class="text-key">PRIMARY STACK</text>
-    <text x="135" y="164" class="text-cyan">: Python, Rust, TypeScript, PyTorch, CUDA, vLLM</text>
-
-    <text x="0" y="186" class="text-key">UPTIME</text>
-    <text x="135" y="186" class="text-val">: 24/7 autonomous keepalive supervisor</text>
-
-    <!-- Status Line with Pulsing LED -->
-    <text x="0" y="214" class="text-key">SYSTEM STATUS</text>
-    <text x="135" y="214" class="text-val">:</text>
-    <circle cx="150" cy="210" r="4.5" class="led" />
-    <text x="162" y="214" class="text-hl">ALL CORES SATURATED &amp; DEPLOYED</text>
-
-    <!-- Command Prompt at Bottom with blinking cursor -->
-    <text x="0" y="254" class="text-prompt">habib@blackwell-node<tspan fill="#94a3b8">:</tspan><tspan fill="#818cf8">~</tspan><tspan fill="#94a3b8">$</tspan> <tspan fill="#f8fafc">./orchestrate_future.sh --release</tspan></text>
-    <rect x="365" y="242" width="9" height="15" class="cursor" />
+    <!-- Command 3: Next prompt -->
+    <text x="0" y="284"><tspan class="t-prompt">habib@blackwell-edge</tspan><tspan fill="#64748b">:</tspan><tspan fill="#818cf8">~</tspan><tspan fill="#64748b">$</tspan> <tspan class="t-cmd">tacp swarm-dispatch --agents hermes,cli-anything</tspan></text>
+    <rect x="485" y="271" width="8.5" height="15" class="cursor-box" />
   </g>
 </svg>
