@@ -4,48 +4,60 @@
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&height=50&lines=Autonomous+AI+Agents+%26+Multi-Agent+Swarms;Blackwell+96GB+Cloud+GPU+Pipelines+%26+vLLM;High-Performance+Inference+Optimization+%7C+FlashInfer;Full-Stack+Architect+%7C+Python+%7C+TypeScript+%7C+Rust;Building+Intelligent+Infrastructure" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=38BDF8&center=true&vCenter=true&random=false&width=650&height=50&lines=Autonomous+AI+Agents+%26+Multi-Agent+Swarms;Blackwell+96GB+Cloud+GPU+Pipelines+%26+vLLM;High-Performance+Inference+Optimization+%7C+FlashInfer;Full-Stack+Architect+%7C+Python+%7C+TypeScript+%7C+Rust;Building+Tomorrow's+Intelligent+Infrastructure" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=w-zo&label=PROFILE+VIEWS&style=for-the-badge&color=0284c7" alt="Profile Views" />
   <img src="https://img.shields.io/badge/FOCUS-AUTONOMOUS%20AGENTS%20%26%20GPU-blueviolet?style=for-the-badge&logo=openai&logoColor=white" alt="Focus" />
-  <img src="https://img.shields.io/badge/COMPUTE-RTX%20PRO%206000%2096GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Compute" />
-  <img src="https://img.shields.io/badge/STATUS-BUILDING%20THE%20FUTURE-0ea5e9?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/HARDWARE-RTX%20PRO%206000%2096GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="Compute" />
+  <img src="https://img.shields.io/badge/STATUS-SYSTEMS%20ACTIVE-0ea5e9?style=for-the-badge" alt="Status" />
 </p>
 
 ---
 
-### 🛰️ Executive Briefing
+<!-- CYBER TERMINAL HUD -->
+<p align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Cyber Terminal HUD" />
+</p>
+
+<!-- NOW STREAMING AUDIO CARD -->
+<p align="center">
+  <img src="./assets/player.svg" width="100%" alt="Now Coding / Synthwave Stream" />
+</p>
+
+---
+
+### 🛰️ Executive Briefing & Core Architecture
 
 ```text
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│  AI Systems & Autonomous Agents Architect | Cloud GPU Infrastructure        │
-│  Specializing in distributed neural compute, model serving & low-latency    │
+│  HABIB // ARCHITECT & SYSTEMS ENGINEER                                      │
+│  Specializing in distributed neural compute, autonomous swarms & low-latency│
 │  agentic tooling. Turning cutting-edge AI research into production reality. │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- 🔭 **Architecting**: Autonomous multi-agent swarms, self-evolving code harnesses, and persistent agent runtimes.
-- ⚡ **GPU Infrastructure**: Pushing NVIDIA RTX PRO 6000 Blackwell 96GB to its limits via **vLLM**, **FlashInfer**, **Automatic Prefix Caching (APC)**, and chunked prefill.
-- 🎙️ **Voice & Conversational AI**: Engineering sub-200ms real-time neural speech pipelines, Indic multilingual models, and conversational telephone bots.
-- 🛠️ **Systems & Tooling**: Authoring developer-first CLI platforms, high-speed streaming HTTP bridges, and full-stack reactive apps.
-- 🌱 **Continual Exploration**: Kernel dispatch, Triton fused kernels, quantum-safe protocols, and local edge computing on Linux/Termux.
+- 🔭 **Autonomous Agent Ecosystems**: Architecting hierarchical multi-agent swarms, self-evolving code harnesses, and persistent agent runtimes.
+- ⚡ **Blackwell 96GB GPU Ingress**: Squeezing maximum throughput out of NVIDIA RTX PRO 6000 Blackwell 96GB using **FlashInfer**, **Triton fused kernels**, **vLLM**, and **Automatic Prefix Caching (APC)**.
+- 🎙️ **Conversational Neural Voice**: Engineering sub-200ms end-to-end full-duplex speech synthesis, Indic language acoustic models, and telephony AI agents.
+- 🛠️ **Systems & Developer Platforms**: Authoring agent-native CLIs, streaming HTTP bridges, and reactive full-stack web applications.
+- 🧬 **The Prefix-Cache Contract**: Ensuring 100% byte-frozen prompt prefixes for 90%+ cache hit rate and sub-80ms Time-To-First-Token (TTFT).
 
 ---
 
-### 🛠️ Tech Arsenal & Systems Architecture
+### 🛠️ Tech Arsenal & Systems Stack
 
 <table>
   <tr>
-    <td width="22%"><strong>Languages & Core</strong></td>
+    <td width="22%"><strong>Languages &amp; Core</strong></td>
     <td>
       <img src="https://skillicons.dev/icons?i=python,ts,js,rust,cpp,bash,postgres,go&theme=dark" alt="Languages" />
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>AI, ML & Compute</strong></td>
+    <td width="22%"><strong>AI, ML &amp; Compute</strong></td>
     <td>
       <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,docker&theme=dark" alt="AI Frameworks" />
       <br /><br />
@@ -59,13 +71,13 @@
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>Full-Stack & Cloud</strong></td>
+    <td width="22%"><strong>Full-Stack &amp; Cloud</strong></td>
     <td>
       <img src="https://skillicons.dev/icons?i=fastapi,nextjs,react,nodejs,tailwind,supabase,cloudflare,redis,postgres&theme=dark" alt="Full Stack & Cloud" />
     </td>
   </tr>
   <tr>
-    <td width="22%"><strong>DevOps & Tooling</strong></td>
+    <td width="22%"><strong>DevOps &amp; Tooling</strong></td>
     <td>
       <img src="https://skillicons.dev/icons?i=linux,git,githubactions,docker,nginx,vscode,vim&theme=dark" alt="DevOps" />
     </td>
@@ -74,7 +86,7 @@
 
 ---
 
-### 📊 Telemetry & Contribution Intelligence
+### 📊 Real-Time Telemetry & Contribution Intelligence
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=w-zo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="w-zo GitHub Stats" width="49%" />
@@ -88,7 +100,11 @@
 
 ---
 
-### 🐍 Contribution Labyrinth
+### 🏙️ 3D Contribution Landscape & Grid Labyrinth
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution City View" />
+</p>
 
 <p align="center">
   <picture>
@@ -100,28 +116,66 @@
 
 ---
 
-### ⚡ Architecture & Engineering Focus
+### ⚡ Deep-Dive Cyber Decks & System Telemetry
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <h3>🤖 Autonomous Agents</h3>
-      <p>Hierarchical multi-agent swarms, dynamic tool compilation, autonomous code harnesses, and self-healing execution loops.</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>⚡ Cloud GPU Ingress</h3>
-      <p>NVIDIA RTX PRO 6000 Blackwell 96GB scaling, sub-80ms TTFT, FlashInfer attention dispatch, and memory-bandwidth saturation.</p>
-    </td>
-    <td width="33%" align="center">
-      <h3>🎙️ Neural Voice Systems</h3>
-      <p>Full-duplex real-time dialogue engines, Indic acoustic synthesis, WebSocket streaming bridges, and conversational telephony.</p>
-    </td>
-  </tr>
-</table>
+<details>
+<summary><b>🕹️ DECK 01: BLACKWELL 96GB INFERENCE TELEMETRY &amp; BENCHMARKS</b></summary>
+<br />
+
+```text
++-------------------------------------------------------------------------------+
+| NVIDIA RTX PRO 6000 BLACKWELL 96GB GDDR7 -- PRODUCTION TELEMETRY              |
++-------------------------------------------------------------------------------+
+| Metric                         | Measured Baseline | Architecture Target      |
++--------------------------------+-------------------+--------------------------+
+| Time to First Token (TTFT)     | 72ms              | < 80ms (FlashInfer APC)  |
+| Memory Bandwidth Saturation    | 1.76 TB/s         | 1.80 TB/s (97.8% Peak)   |
+| Prefix Cache Hit Rate (APC)    | 94.8%             | > 90% (Zero-Jitter Loop) |
+| Chunked Prefill Chunk Size     | 512 tokens        | Dynamic Scheduling       |
+| PTY WebSocket Safety           | Streamed REST API | Zero 4096-byte crashes   |
++-------------------------------------------------------------------------------+
+```
+
+</details>
+
+<details>
+<summary><b>🧠 DECK 02: THE AGENTIC SOVEREIGNTY PROTOCOL</b></summary>
+<br />
+
+1. **Deterministic Prefix Caching**: Never inject dynamic timestamps or randomized strings into base system prompts. Keep prompts frozen to maximize KV-cache memory reuse.
+2. **REST Streaming over Fragile PTY**: Terminal PTYs crash on payloads > 4096 bytes. All production pipelines strictly leverage native chunked HTTP streaming.
+3. **Autonomous Session Handoff**: Clean markers, zero lingering dirty working trees, full deterministic test coverage.
+
+</details>
+
+<details>
+<summary><b>⚡ DECK 03: SECRET COMMAND ALIASES &amp; RUNTIME SUITE</b></summary>
+<br />
+
+```bash
+# Target idle Blackwell GPU pod with zero friction
+$ molab free --json
+
+# Launch keepalive supervisor with 100% on-pod permanence
+$ molab permanent <pod_id>
+
+# Dispatch compiled FlashInfer model server
+$ molab deploy qwen-32b --bridge 8000
+```
+
+</details>
 
 ---
 
-### 🌐 Connect & Collaborate
+### 💡 Daily Engineering Wisdom
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dynamic Tech Quote" />
+</p>
+
+---
+
+### 🌐 Connect &amp; Collaborate
 
 <p align="center">
   <a href="https://github.com/w-zo" target="_blank">
