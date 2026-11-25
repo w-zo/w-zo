@@ -1,20 +1,23 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Habib (@w-zo) Header" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00F0FF,50:7000FF,100:00FF66&height=180&section=header&text=HABIB%20%E2%9A%A1%20%40w-zo&fontSize=42&fontColor=ffffff&animation=twinkling" width="100%" alt="Habib Header Banner" />
 </p>
 
-<!-- BESPOKE DISTRIBUTED ARCHITECTURE SCHEMATIC -->
 <p align="center">
-  <img src="./assets/system_architecture.svg" width="100%" alt="Distributed Cluster Architecture Blueprint" />
+  <a href="https://readme-typing-svg.demolab.com">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00F0FF&center=true&vCenter=true&random=false&width=700&height=50&lines=%E2%9A%A1+Autonomous+AI+Agents+%26+Neural+Swarms;%F0%9F%9A%80+Blackwell+96GB+Cloud+GPU+Orchestration;%F0%9F%94%A5+Kernel+Dispatch+%7C+FlashInfer+%7C+vLLM+%7C+CUDA;%F0%9F%9B%A0%EF%B8%8F+Full-Stack+Architect+%7C+Python+%7C+Rust+%7C+TypeScript;%F0%9F%A7%A0+Building+the+Future+of+Agentic+Software" alt="Typing Animation" />
+  </a>
 </p>
 
-<!-- AUTHENTIC TERMINAL SESSION HUD -->
 <p align="center">
-  <img src="./assets/terminal.svg" width="100%" alt="Active Terminal HUD" />
+  <img src="https://komarev.com/ghpvc/?username=w-zo&label=PROFILE+VIEWS&style=for-the-badge&color=00f0ff" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/GPU-RTX%20PRO%206000%2096GB-76B900?style=for-the-badge&logo=nvidia&logoColor=white" alt="GPU" />
+  <img src="https://img.shields.io/badge/ENGINE-vLLM%20%2B%20FLASHINFER-7000FF?style=for-the-badge&logo=vllm&logoColor=white" alt="Engine" />
+  <img src="https://img.shields.io/badge/STATUS-SYSTEMS%20ACTIVE-00FF66?style=for-the-badge" alt="Status" />
 </p>
 
 ---
 
-### ⚡ Core Systems & Engineering Focus
+### 🛰️ Executive Briefing
 
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────────┐
@@ -24,10 +27,20 @@
 └──────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-* **Cloud GPU Orchestration**: Squeezing hardware limits on **NVIDIA RTX PRO 6000 Blackwell (96GB GDDR7)** via **FlashInfer**, **Triton fused attention**, **vLLM**, and **Automatic Prefix Caching (APC)** for sub-80ms TTFT.
-* **Agent-Native Systems**: Contributor and builder across autonomous agent frameworks (**CLI-Anything**, **Hermes Agent**), enabling LLMs to autonomously operate CLI software harnesses with zero human friction.
-* **Low-Latency Conversational Voice**: Developing sub-200ms full-duplex neural acoustic models, Indic speech synthesis, and telephony AI agents.
-* **Edge-to-Cloud Runtime**: Architecting deterministic SQLite WAL state persistence and high-speed streaming HTTP bridges between local **Termux / Android aarch64** nodes and remote cloud GPU clusters.
+* ⚡ **Cloud GPU Orchestration**: Squeezing hardware limits on **NVIDIA RTX PRO 6000 Blackwell (96GB GDDR7)** via **FlashInfer**, **Triton fused attention**, **vLLM**, and **Automatic Prefix Caching (APC)** for sub-80ms TTFT.
+* 🤖 **Agent-Native Systems**: Contributor and builder across autonomous agent frameworks (**CLI-Anything**, **Hermes Agent**), enabling LLMs to autonomously operate software harnesses with zero human friction.
+* 🎙️ **Conversational Neural Voice**: Developing sub-200ms real-time acoustic models, Indic speech synthesis, and telephony AI agents.
+* 📱 **Edge-to-Cloud Runtime**: Architecting deterministic SQLite WAL state persistence and streaming HTTP bridges between local **Termux / Android aarch64** nodes and remote cloud GPU clusters.
+
+---
+
+### 🛠️ Tech Stack & Ecosystem Dock
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,rust,ts,cpp,bash,pytorch,linux,docker,fastapi,next,react,tailwind,supabase,cloudflare,git,githubactions,postgres,redis,neovim,vscode&perline=10&theme=dark" alt="Tech Stack Icons Dock" />
+  </a>
+</p>
 
 ---
 
@@ -72,22 +85,32 @@
 
 ---
 
-### 🛠️ Technical Arsenal
+### 📊 Real-Time Telemetry & GitHub Analytics
 
-```text
-Languages     │ Python 3.12+ · Rust 1.80+ · TypeScript · C++20 · CUDA 12.6 · Bash · Go · SQL
-Compute & AI  │ vLLM · FlashInfer · PyTorch 2.4 · Triton Kernels · Hugging Face · Transformers
-Edge & Host   │ Android Termux (aarch64) · CoreWeave Blackwell · Arch Linux · Docker · gVisor
-Protocols     │ Native HTTP SSE Streaming · SQLite WAL · MCP JSON-RPC 2.0 · WebSocket PTY
-Storage & Web │ PostgreSQL · Supabase · Redis · Cloudflare Workers · FastAPI · Next.js · Tailwind
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=w-zo&show_icons=true&theme=radical&hide_border=true&bg_color=090d16&title_color=00F0FF&icon_color=00F0FF&text_color=e2e8f0" alt="w-zo GitHub Stats" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=w-zo&theme=radical&hide_border=true&background=090d16&ring=00F0FF&fire=00F0FF&currStreakLabel=00F0FF" alt="w-zo GitHub Streak" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=w-zo&layout=compact&theme=radical&hide_border=true&bg_color=090d16&title_color=00F0FF&text_color=e2e8f0" alt="Top Languages" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=w-zo&theme=tokyo-night&area=true&hide_border=true&bg_color=090d16" alt="Activity Graph" width="49%" />
+</p>
 
 ---
 
-### 🏙️ 3D Contribution Landscape
+### 🐍 Contribution Labyrinth & 3D Landscape
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution City View" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake.svg">
+    <img alt="Habib's Contribution Snake Animation" src="https://raw.githubusercontent.com/w-zo/w-zo/output/github-contribution-grid-snake-dark.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/w-zo/w-zo/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Contribution City View" />
 </p>
 
 ---
@@ -156,5 +179,5 @@ Production Standard:
 </p>
 
 <p align="center">
-  <sub><code>STATUS: 24/7 AUTONOMOUS KEEPALIVE SUPERVISOR ACTIVE // NOCTURNAL COMPUTE ONLINE</code></sub>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:00F0FF,50:7000FF,100:00FF66&height=80&section=footer" width="100%" alt="Footer Wave" />
 </p>
