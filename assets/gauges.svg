@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gaugeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" />
+      <stop offset="100%" stop-color="#04070e" />
+    </linearGradient>
+    <linearGradient id="cyanFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <linearGradient id="greenFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF66" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+    <linearGradient id="purpleFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7000FF" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+    <linearGradient id="goldFill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#fbbf24" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', 'Courier New', monospace; }
+    .g-title { font-size: 11px; fill: #94a3b8; font-weight: 600; letter-spacing: 0.8px; }
+    .g-val { font-size: 12px; font-weight: bold; }
+    .g-bar-bg { fill: #131b2c; rx: 4px; }
+  </style>
+
+  <!-- Frame -->
+  <rect width="920" height="180" rx="12" fill="url(#gaugeBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Top Label -->
+  <text x="24" y="28" class="mono" font-size="11px" fill="#64748b" letter-spacing="1.5px" font-weight="bold">⚡ HARDWARE SATURATION &amp; INFERENCE ENGINE TELEMETRY</text>
+  <text x="896" y="28" text-anchor="end" class="mono" font-size="10.5px" fill="#00FF66">● LIVE INGESTION</text>
+  <line x1="24" y1="38" x2="896" y2="38" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Gauge 1: VRAM Memory (Left Column, Top) -->
+  <g transform="translate(24, 52)">
+    <text x="0" y="14" class="mono g-title">GPU VRAM UTILIZATION (GB202)</text>
+    <text x="410" y="14" text-anchor="end" class="mono g-val" fill="#00FF66">95.4 / 96.0 GB (99.4%)</text>
+    <rect x="0" y="22" width="410" height="8" class="g-bar-bg" />
+    <rect x="0" y="22" width="407" height="8" rx="4" fill="url(#greenFill)" />
+  </g>
+
+  <!-- Gauge 2: Memory Bandwidth (Right Column, Top) -->
+  <g transform="translate(486, 52)">
+    <text x="0" y="14" class="mono g-title">MEMORY BANDWIDTH SATURATION</text>
+    <text x="410" y="14" text-anchor="end" class="mono g-val" fill="#00F0FF">1.76 / 1.80 TB/s (97.8%)</text>
+    <rect x="0" y="22" width="410" height="8" class="g-bar-bg" />
+    <rect x="0" y="22" width="401" height="8" rx="4" fill="url(#cyanFill)" />
+  </g>
+
+  <!-- Gauge 3: Prefix Cache APC (Left Column, Bottom) -->
+  <g transform="translate(24, 114)">
+    <text x="0" y="14" class="mono g-title">AUTOMATIC PREFIX CACHING (APC)</text>
+    <text x="410" y="14" text-anchor="end" class="mono g-val" fill="#a855f7">94.8% HIT RATE (FROZEN)</text>
+    <rect x="0" y="22" width="410" height="8" class="g-bar-bg" />
+    <rect x="0" y="22" width="388" height="8" rx="4" fill="url(#purpleFill)" />
+  </g>
+
+  <!-- Gauge 4: TTFT Latency (Right Column, Bottom) -->
+  <g transform="translate(486, 114)">
+    <text x="0" y="14" class="mono g-title">TIME TO FIRST TOKEN (TTFT)</text>
+    <text x="410" y="14" text-anchor="end" class="mono g-val" fill="#fbbf24">72ms (&lt; 80ms SLA PASS)</text>
+    <rect x="0" y="22" width="410" height="8" class="g-bar-bg" />
+    <rect x="0" y="22" width="370" height="8" rx="4" fill="url(#goldFill)" />
+  </g>
+</svg>

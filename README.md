@@ -15,6 +15,11 @@
   <img src="https://img.shields.io/badge/STATUS-SYSTEMS%20ACTIVE-00FF66?style=for-the-badge" alt="Status" />
 </p>
 
+<!-- HARDWARE SATURATION LIVE GAUGES -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/w-zo/w-zo/main/assets/gauges.svg" width="100%" alt="Hardware Saturation Gauges" />
+</p>
+
 ---
 
 ### 🛰️ Executive Briefing
@@ -44,6 +49,19 @@
 
 ---
 
+### 📌 Featured Repositories
+
+<p align="center">
+  <a href="https://github.com/w-zo/molab-cli">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=w-zo&repo=molab-cli&theme=radical&bg_color=090d16&title_color=00F0FF&icon_color=00F0FF&text_color=e2e8f0" alt="molab-cli Pin Card" />
+  </a>
+  <a href="https://github.com/w-zo/CLI-Anything">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=w-zo&repo=CLI-Anything&theme=radical&bg_color=090d16&title_color=00F0FF&icon_color=00F0FF&text_color=e2e8f0" alt="CLI-Anything Pin Card" />
+  </a>
+</p>
+
+---
+
 ### 🚀 Flagship Open-Source Projects
 
 <table>
@@ -66,7 +84,7 @@
       <td><strong>CLI-Anything</strong></td>
       <td>Autonomous engine transforming arbitrary software into agent-native CLIs. Leverages AST parsing, trajectory loops, and automatic harness synthesis so LLM agents can run CAD, 3D renderers, and system tools directly.</td>
       <td><code>Python</code> <code>AST</code> <code>Agents</code></td>
-      <td align="center"><a href="https://github.com/HKUDS/CLI-Anything"><code>CLI-Anything</code></a></td>
+      <td align="center"><a href="https://github.com/w-zo/CLI-Anything"><code>w-zo/CLI-Anything</code></a></td>
     </tr>
     <tr>
       <td><strong>indic-voice</strong></td>
@@ -78,7 +96,7 @@
       <td><strong>hermes-agent</strong></td>
       <td>Autonomous multi-agent swarm runtime featuring continuous episodic memory, autonomous skill synthesis, and multi-channel gateway connectivity (Telegram, Discord, CLI).</td>
       <td><code>Python</code> <code>TUI</code> <code>Multi-Agent</code></td>
-      <td align="center"><a href="https://github.com/NousResearch/hermes-agent"><code>hermes-agent</code></a></td>
+      <td align="center"><a href="https://github.com/w-zo/hermes-agent"><code>w-zo/hermes-agent</code></a></td>
     </tr>
   </tbody>
 </table>
@@ -116,6 +134,17 @@
 ---
 
 ### 🔬 Architecture Specs & Engineering Protocols
+
+<details>
+<summary><b>🕹️ RUN LIVE BENCHMARK UTILITY [ONE-LINER]</b></summary>
+<br />
+
+```bash
+# Execute the Blackwell 96GB GPU Memory Bandwidth & TTFT Benchmark directly:
+curl -sL https://gist.githubusercontent.com/w-zo/de6fff1145ed0839d26ce2590dc6455d/raw/blackwell_inference_benchmark.py | python3
+```
+
+</details>
 
 <details>
 <summary><b>📐 PROTOCOL 01: THE PREFIX-CACHE STABILITY CONTRACT</b></summary>
